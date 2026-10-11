@@ -2,7 +2,7 @@
 
 ![ATHENA free two-option comparison demo, genuine browser screenshot](docs/athena-demo-preview.png)
 
-**Decision-matrix guide (Deutsch · Türkçe · English):** [See worked examples, feature comparison and consumer links](DECISION_MATRIX_GUIDE_DE_TR_EN.md)
+**Decision matrix guide (English):** [Read the worked example and compare free versus paid](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/decision-matrix.html). Optional translations: [Deutsch](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/entscheidungshilfe-de.html) · [Türkçe](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/karar-matrisi-tr.html).
 
 **Free interactive demo:** [Try the 2-option decision calculator](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/)
 
@@ -23,7 +23,7 @@ The complete downloadable ZIP includes a **four-option** comparison workbook, lo
 
 **How to use it:** Describe two courses, job offers, software providers or other options; enter a score from 0 to 5 for fit, source evidence and cost suitability. ATHENA computes **40% fit, 35% evidence, 25% cost**. These are personal, editable judgement scores, NOT verified seller ratings or live prices. No payment is made from the demo.
 
-**Languages:** The landing page has EN, DE and TR translations. The paid workbook's interface is in English, with guidance in three languages. The free [ATHENA ΦOS online search beta](https://abstract-veil-376mcyt.shipstatic.com/) is separately available without payment.
+**Languages:** The English landing page provides optional DE and TR language controls. The paid workbook's interface is in English, with guidance in three languages. The free [ATHENA ΦOS online search beta](https://abstract-veil-376mcyt.shipstatic.com/) is separately available without payment.
 
 **Privacy:** The standalone demo performs no network requests, does not set cookies and does not retain your personal information when closed. External links open only when clicked. Do not input sensitive financial or health information into external third-party searches.
 
@@ -31,8 +31,6 @@ The complete downloadable ZIP includes a **four-option** comparison workbook, lo
 
 The product is a personal decision aid. It is not a certified trust score, live price checker, scientific physics solver, or promise of income. The full toolkit uses a shareable post-payment download link, not a buyer-specific encrypted entitlement. No end-to-end paid customer transaction has been verified.
 
-**DE:** Die kostenlose Demo vergleicht zwei Alternativen. Das separate Offline-Toolkit für vier Optionen und JSON/CSV-Export kostet einmalig 9,90 €. Keine Abo-Gebühr, keine geprüften Echtzeitpreise.
 
-**TR:** Ücretsiz demo iki seçeneği karşılaştırır. Dört seçenek ve JSON/CSV raporu içeren ayrı çevrimdışı paket tek seferlik 9,90 €. Abonelik yok, fiyatların doğrulandığı iddia edilmez.
 
 **CERBERRUS144 / ATHENA ΦOS.** This public repository does not include private CERBERRUS code, customer information, secret credentials, or the paid ZIP.
