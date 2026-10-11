@@ -64,6 +64,8 @@ Kopiere die folgende Tabelle in dein internes Dokument und fülle sie für **ein
 
 **Nicht geschätzte Kosten als gesparte Euro verkaufen.** Erfasse vor dem Versuch eine Ausgangsmessung. Berechne Zeitunterschiede erst nach echten Testfällen; berücksichtige Einrichtung, Kontrolle, Fehlerkorrektur und laufenden Betrieb.
 
+**Direkt nutzbare Datei:** [Kostenloses Excel-kompatibles Kontrollblatt (.csv, Semikolon-getrennt)](angebotsprozess-kontrollblatt.csv) – 18 Prüfpunkte, keine Registrierung. Die Beispielwerte sind ausdrücklich fiktiv; echte Kundendaten gehören nur in entsprechend geschützte Unternehmenssysteme.
+
 ## 5. Fünf Tests vor einem Pilot
 
 1. **Vollständiger Normalfall:** Stimmen alle Pflichtfelder, Kalkulation und Freigabeschritte?
