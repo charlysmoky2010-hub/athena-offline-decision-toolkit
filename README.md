@@ -33,6 +33,8 @@ The product is a personal decision aid. It is not a certified trust score, live 
 
 
 
+**Kostenloser HTML-Praxischeck für kleine Betriebe:** [Angebotserstellung automatisieren – 18 Prüfpunkte, Checkliste und Beispiel](docs/angebotserstellung-automatisieren-checkliste.html). Eigenständige, frei lesbare HTML-Seite mit CSV-Download; optional separat das X-Ray-Workbook. Keine Registrierung, keine behaupteten Kundeneinsparungen.
+
 **Free, concrete German workflow example:** [E-Mail → Excel → Angebot automatisieren: Regeln, KI oder Mensch?](docs/angebotserstellung-email-excel-automatisieren.md). Includes a no-signup process checklist, failure tests and decision logic for small businesses. The example contains fictional values, not customer results.
 
 **Separate business workflow tool (optional):** ATHENA helps compare alternatives; a different product, the [CERBERRUS Operational X-Ray Workbook for business process analysis (€29, German)](https://smokycharly.gumroad.com/l/cyrada?utm_source=github&utm_medium=project_readme&utm_campaign=xray_sales_q4_2026&utm_content=athena_repository), helps assess one real workflow before choosing AI or classic automation. It is sold via Gumroad, not included in ATHENA's free demo or €9.90 toolkit, and is not a certification or guarantee of savings.
