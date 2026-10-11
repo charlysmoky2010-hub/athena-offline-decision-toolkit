@@ -1,5 +1,7 @@
 # ATHENA ΦOS | Offline Decision Toolkit
 
+![ATHENA free two-option comparison demo, genuine browser screenshot](docs/athena-demo-preview.png)
+
 **Free interactive demo:** [Try the 2-option decision calculator](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/)
 
 ATHENA is a privacy-first research companion. The free demo compares **two options**, locally in your browser, using user-defined evidence scores. No signup, tracking, subscription, API keys, or external data upload.
