@@ -33,4 +33,6 @@ The product is a personal decision aid. It is not a certified trust score, live 
 
 
 
+**Separate business workflow tool (optional):** ATHENA helps compare alternatives; a different product, the [CERBERRUS Operational X-Ray Workbook for business process analysis (€29, German)](https://smokycharly.gumroad.com/l/cyrada?utm_source=github&utm_medium=project_readme&utm_campaign=xray_sales_q4_2026&utm_content=athena_repository), helps assess one real workflow before choosing AI or classic automation. It is sold via Gumroad, not included in ATHENA's free demo or €9.90 toolkit, and is not a certification or guarantee of savings.
+
 **CERBERRUS144 / ATHENA ΦOS.** This public repository does not include private CERBERRUS code, customer information, secret credentials, or the paid ZIP.
