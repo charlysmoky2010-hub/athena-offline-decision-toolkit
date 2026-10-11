@@ -8,7 +8,7 @@
 
 ATHENA is a privacy-first research companion. The free demo compares **two options**, locally in your browser, using user-defined evidence scores. No signup, tracking, subscription, API keys, or external data upload.
 
-**Complete offline toolkit: €9.90 one-time:** [View the product details, consumer terms and Stripe checkout](https://driven-petal-4sh3xyk.shipstatic.com/)
+**Complete offline toolkit: €9.90 one-time:** [View the product details, consumer terms and Stripe checkout](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/offline-toolkit.html)
 
 The complete downloadable ZIP includes a **four-option** comparison workbook, local **JSON and CSV exports**, a reusable research playbook, and Turkish, German and English instructions. The workbook interface itself is currently English.
 
