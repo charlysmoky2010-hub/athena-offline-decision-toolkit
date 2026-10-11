@@ -1,0 +1,19 @@
+﻿Abschnitt;Prueffeld;Beispiel_nur_fiktiv;Ihr_Eintrag;Status_offen_geprueft;Verantwortlich
+Start;Prozessausloeser;Neue Anfrage im Team-Postfach;;offen;
+Start;Geschaeftlicher_Zweck;Ein korrektes Angebot erstellen;;offen;
+Baseline;Faelle_pro_Woche;20 (Annahme, nicht gemessen);;offen;
+Baseline;Minuten_pro_Fall;15 (Annahme, nicht gemessen);;offen;
+Baseline;Fehlerfaelle_pro_Monat;Unbekannt vor der Messung;;offen;
+Daten;Notwendige_Eingabefelder;Leistung, Menge, Termin;;offen;
+Daten;Quellensystem;E-Mail und Preisliste;;offen;
+Daten;Zulaessige_Daten_und_Zugriff;Vor Nutzung intern klaeren;;offen;
+Regeln;Preis_und_Rabattregeln;Nur freigegebene Preisliste;;offen;
+Regeln;Fehlende_Angaben;Rueckfrage, keine erfundenen Werte;;offen;
+Kontrolle;Menschliche_Freigabe;Vor verbindlichem Versand;;offen;
+Kontrolle;Abbruchbedingung;Preisabweichung oder unklare Daten;;offen;
+Kontrolle;Doppeltes_Ereignis;Keine doppelte Angebotsnummer;;offen;
+Pilot;Testumfang;20 interne, fiktive Testfaelle;;offen;
+Pilot;Messgroesse;Fehlerquote und Bearbeitungszeit;;offen;
+Pilot;Rueckfallplan;Manuelle Bearbeitung bleibt moeglich;;offen;
+Pilot;Entscheidungsdatum;Nach dokumentierter Testauswertung;;offen;
+Abschluss;Nachweis;Vorher-Nachher-Messung ohne Erfolgsversprechen;;offen;
