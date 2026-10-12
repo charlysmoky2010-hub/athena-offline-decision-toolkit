@@ -4,6 +4,8 @@
 
 **Decision matrix guide (English):** [Read the worked example and compare free versus paid](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/decision-matrix.html). Optional translations: [Deutsch](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/entscheidungshilfe-de.html) · [Türkçe](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/karar-matrisi-tr.html).
 
+**German business tool (free):** [Angebotsprozess-Kosten berechnen — 30-Sekunden-Rechner, teilbare Ergebnisse, Website-Embed und unverbindliche Anfrage](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/angebotsprozess-zeitkosten-rechner.html?utm_source=github&utm_medium=project_readme&utm_campaign=inbound_growth_v2). No registration or customer-data upload. Any follow-up inquiry is user-initiated through their email client, not sent automatically.
+
 **Free interactive demo:** [Try the 2-option decision calculator](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/)
 
 ATHENA is a privacy-first research companion. The free demo compares **two options**, locally in your browser, using user-defined evidence scores. No signup, tracking, subscription, API keys, or external data upload.
