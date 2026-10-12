@@ -48,11 +48,24 @@ footer a{margin-right:18px} ul{padding-left:20px;line-height:1.7}
 #share-status{min-height:1.7em;font-size:14px;font-weight:650}
 @media(max-width:720px){.grid{grid-template-columns:1fr}.panel{padding:18px} main{padding-top:20px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+body.embed-view header,body.embed-view footer,body.embed-view .hero,body.embed-view #embed-generator,body.embed-view #normal-faq{display:none}
+body.embed-view main{max-width:100%;padding:15px}
+body.embed-view .grid{grid-template-columns:1fr;gap:10px}
+body.embed-view main section{margin:12px 0}
+body.embed-view .panel{padding:18px}
+body.embed-view #tool-followup{margin-top:8px}
+.embed-attribution{display:none;font-size:13px;margin:8px 0 16px;color:#48666b}
+body.embed-view .embed-attribution{display:block}
+.embed-code{width:100%;height:104px;resize:vertical;border-radius:9px;
+  border:1px solid #8fa9a4;background:#f7fcf9;padding:11px;font:12px ui-monospace,SFMono-Regular,Menlo,monospace;
+  color:#23414c}
+@media(max-width:720px){body.embed-view .grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header><a href="./index.html">CERBERRUS144 / ATHENA ΦOS</a> &nbsp; / &nbsp; Kostenloses Werkzeug</header>
 <main>
+<p class="embed-attribution">Kostenloser Rechner von <a href="https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/angebotsprozess-zeitkosten-rechner.html?utm_source=embed_widget&amp;utm_medium=partner_embed&amp;utm_campaign=inbound_growth_v1" target="_blank" rel="noopener noreferrer">CERBERRUS144</a> · Keine Registrierung und kein Datenupload.</p>
 <div class="hero">
 <span class="eyebrow">Angebotsprozess · Zeitkostenanalyse · kostenlos</span>
 <h1>Wie viel kostet Ihre manuelle Angebotserstellung?</h1>
@@ -95,7 +108,7 @@ footer a{margin-right:18px} ul{padding-left:20px;line-height:1.7}
 <p>Die Größen sind <strong>Modellannahmen, keine gemessenen Einsparungen und kein Gewinn</strong>. Sie berücksichtigen weder Softwareeinrichtung noch Fehlerkosten, Datenschutzprüfung, Schulung, Korrekturen oder die Verlagerung der Arbeitszeit. Der tatsächliche Nutzen muss in einem begrenzten Pilot ermittelt werden.</p>
 <p>Für einen belastbaren Pilot: Ausgangszeit an realen Fällen messen, nur einen Schritt verbessern, dasselbe Ergebnis erneut messen, Qualität und Freigaben vergleichen.</p>
 </section>
-<section class="panel">
+<section class="panel" id="tool-followup">
 <h2>4. Passende nächste Schritte</h2>
 <p><strong>Kostenlos:</strong> Die 18-Punkte-Checkliste zeigt, was vor einer Automatisierung kontrolliert werden sollte.</p>
 <a class="action secondary" href="./angebotserstellung-automatisieren-checkliste.html?utm_source=kostenrechner&utm_medium=organic_tool&utm_campaign=inbound_growth_v1">Checkliste öffnen</a>
@@ -106,7 +119,16 @@ footer a{margin-right:18px} ul{padding-left:20px;line-height:1.7}
 </div>
 <p>Fragen zum Produkt? <a href="mailto:cerberrus144-os@agentmail.to?subject=Frage%20zum%20CERBERRUS%20Angebotsprozess-Rechner">CERBERRUS AI-Operations kontaktieren</a>.</p>
 </section>
-<section>
+<section class="panel" id="embed-generator">
+<h2>Den kostenlosen Rechner auf Ihrer Website einbinden</h2>
+<p>Teilen Sie die Berechnung auch mit Ihren eigenen Kunden oder Kolleginnen. Der Einbettungscode enthält keine Analyse-Skripte, Tracker oder personenbezogenen Kennungen. Die Nutzung ist kostenlos; der CERBERRUS-Quellenhinweis bleibt sichtbar.</p>
+<label for="embed-code">HTML-Code für Ihre Website</label>
+<textarea id="embed-code" class="embed-code" readonly spellcheck="false" aria-label="HTML-Einbettungscode"></textarea>
+<div class="actions"><button id="copy-embed" class="action secondary" type="button">Einbettungscode kopieren</button>
+<a class="action secondary" href="./angebotsprozess-zeitkosten-rechner.html?embed=1&amp;utm_source=partner_embed&amp;utm_medium=calculator_embed&amp;utm_campaign=inbound_growth_v1" target="_blank" rel="noopener noreferrer">Einbettungsvorschau öffnen ↗</a></div>
+<p id="embed-status" role="status" aria-live="polite"></p>
+</section>
+<section id="normal-faq">
 <h2>Häufige Fragen</h2>
 <h3>Werden meine Werte an einen Server gesendet?</h3>
 <p>Die Berechnung und die Erstellung des teilbaren Links finden ausschließlich in Ihrem Browser statt. Erst wenn Sie einen externen Link öffnen, wird die verlinkte Website aufgerufen.</p>
@@ -135,6 +157,17 @@ footer a{margin-right:18px} ul{padding-left:20px;line-height:1.7}
   const euro=new Intl.NumberFormat("de-DE",{style:"currency",currency:"EUR",maximumFractionDigits:0});
   const num=new Intl.NumberFormat("de-DE",{maximumFractionDigits:1});
   const params=new URLSearchParams(location.search);
+  const embedded=params.get("embed")==="1";
+  if(embedded)document.body.classList.add("embed-view");
+  const urlBase=location.origin+location.pathname;
+  const embedAddress=new URL(urlBase);
+  embedAddress.searchParams.set("embed","1");
+  embedAddress.searchParams.set("utm_source","partner_embed");
+  embedAddress.searchParams.set("utm_medium","calculator_embed");
+  embedAddress.searchParams.set("utm_campaign","inbound_growth_v1");
+  const safeSrc=embedAddress.href.replace(/&/g,"&amp;").replace(/"/g,"&quot;");
+  const embedHTML='<iframe title="Kostenloser Angebotsprozess-Zeitkostenrechner von CERBERRUS144" src="'+safeSrc+'" loading="lazy" style="width:100%;height:1250px;border:1px solid #b1cfc2;border-radius:12px;" referrerpolicy="strict-origin-when-cross-origin"></iframe>\n<a href="'+urlBase+'?utm_source=partner_embed&amp;utm_medium=embed_credit&amp;utm_campaign=inbound_growth_v1">Kostenloser Angebotsprozess-Rechner von CERBERRUS144</a>';
+  document.getElementById("embed-code").value=embedHTML;
   const fields={};
   cfg.forEach(([id,def,min,max,step,key])=>{
     const el=document.getElementById(id);
@@ -181,13 +214,23 @@ footer a{margin-right:18px} ul{padding-left:20px;line-height:1.7}
     }
   }
   document.getElementById("copy").addEventListener("click",copyUrl);
+  document.getElementById("copy-embed").addEventListener("click",async()=>{
+    try{
+      if(navigator.clipboard&&window.isSecureContext){
+        await navigator.clipboard.writeText(embedHTML);
+        document.getElementById("embed-status").textContent="Einbettungscode kopiert.";
+      }else document.getElementById("embed-status").textContent="Bitte den oben sichtbaren Code kopieren.";
+    }catch{
+      document.getElementById("embed-status").textContent="Bitte den oben sichtbaren Code kopieren.";
+    }
+  });
   // Preserve anonymous referral attribution to the checkout page.
   // No cookies, fingerprinting, visitor ID or remote event collection.
-  if(params.get("utm_medium")==="calculator_referral"){
+  if(params.get("utm_medium")==="calculator_referral" || embedded){
     const buy=document.getElementById("purchase");
     const dest=new URL(buy.href);
-    dest.searchParams.set("utm_medium","calculator_referral");
-    dest.searchParams.set("utm_content","shared_calculator_result");
+    dest.searchParams.set("utm_medium",embedded?"calculator_embed":"calculator_referral");
+    dest.searchParams.set("utm_content",embedded?"partner_embed_tool":"shared_calculator_result");
     buy.href=dest.toString();
   }
   document.getElementById("share").addEventListener("click",async()=>{
