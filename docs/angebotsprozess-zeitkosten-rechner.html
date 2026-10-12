@@ -100,6 +100,12 @@ body.embed-view .embed-attribution{display:block}
 <button id="copy" class="action secondary" type="button">Link kopieren</button>
 </div>
 <p id="share-status" role="status" aria-live="polite"></p>
+<div class="notice" style="margin-top:18px">
+<strong>Passt eine Automatisierung zu Ihrem Ablauf?</strong>
+<p>Sie können die vier anonymen Rechenparameter als unverbindliche Anfrage an das separate CERBERRUS AI-Operations-Postfach übergeben. Ihr E-Mail-Programm zeigt den Text vor dem Versand. Keine Anfrage wird beim Klicken automatisch versendet.</p>
+<a id="inquiry" class="action" href="mailto:cerberrus144-os@agentmail.to?subject=Angebotsprozess%20Anfrage">Unverbindliche Prozessanfrage vorbereiten ↗</a>
+<p class="hint">Kein automatischer Versand, kein unverbindliches Kostenangebot, keine garantierte Antwortzeit. Bitte keine Namen Dritter, Kundendaten oder vertraulichen Dokumente mitsenden.</p>
+</div>
 <p class="muted result-detail">Der Link enthält ausschließlich diese vier Zahlen, <strong>keine</strong> Namen, E-Mail-Adressen oder Kundendaten.</p>
 </section>
 </div>
@@ -198,6 +204,24 @@ body.embed-view .embed-attribution{display:block}
     document.getElementById("saved-hours").textContent=num.format(saved)+" h";
     document.getElementById("saved-eur").textContent=euro.format(saved*c);
     document.getElementById("method").textContent="Rechenweg: "+num.format(n)+" × "+num.format(t)+" min ÷ 60 × "+num.format(c)+" € × "+num.format(r)+" %. Nur theoretische Prozesskosten – kein nachgewiesener Ertrag.";
+    const subject="Angebotsprozess Anfrage · Rechner";
+    const request=[
+      "Hallo CERBERRUS AI-Operations,",
+      "",
+      "Ich habe den kostenlosen Zeitkostenrechner verwendet.",
+      "Angebote pro Monat: "+n,
+      "Minuten pro Angebot: "+t,
+      "Interne Vollkosten pro Stunde (EUR): "+c,
+      "Hypothetischer Zeitanteil (%): "+r,
+      "Theoretische Prozesskosten pro Monat (EUR): "+(h*c).toFixed(2),
+      "",
+      "Ich möchte unverbindlich prüfen, welche Prozessschritte ohne sensible Daten untersucht werden könnten.",
+      "Meine konkrete Frage: [hier optional ergänzen]",
+      "",
+      "Dies ist eine Kundenanfrage, keine Bestellung und keine Zahlung.",
+      "Bitte keine Kundendaten, Passwörter oder vertraulichen Dokumente senden."
+    ].join("\n");
+    document.getElementById("inquiry").href="mailto:cerberrus144-os@agentmail.to?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(request);
     document.getElementById("share-status").textContent="";
   }
   async function copyUrl(){
