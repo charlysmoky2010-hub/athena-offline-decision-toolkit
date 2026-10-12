@@ -181,6 +181,15 @@ footer a{margin-right:18px} ul{padding-left:20px;line-height:1.7}
     }
   }
   document.getElementById("copy").addEventListener("click",copyUrl);
+  // Preserve anonymous referral attribution to the checkout page.
+  // No cookies, fingerprinting, visitor ID or remote event collection.
+  if(params.get("utm_medium")==="calculator_referral"){
+    const buy=document.getElementById("purchase");
+    const dest=new URL(buy.href);
+    dest.searchParams.set("utm_medium","calculator_referral");
+    dest.searchParams.set("utm_content","shared_calculator_result");
+    buy.href=dest.toString();
+  }
   document.getElementById("share").addEventListener("click",async()=>{
     const data={title:"Angebotsprozess-Zeitkostenrechner",text:"Eine transparente, kostenlose Zeitkostenrechnung für die Angebotserstellung.",url:resultLink()};
     if(navigator.share){
