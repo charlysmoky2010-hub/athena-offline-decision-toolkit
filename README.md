@@ -1,5 +1,7 @@
 # ATHENA ΦOS | Offline Decision Toolkit
 
+**CERBERRUS für kleine Unternehmen:** [Kostenlosen Angebotsprozess-Rechner verwenden](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/angebotsprozess-zeitkosten-rechner.html). Vier Werte eingeben, Ergebnis teilen oder freiwillig eine unverbindliche Anfrage an die separate CERBERRUS AI-Operations-Adresse vorbereiten. Das [deutsche Operational X-Ray Workbook (€29)](https://smokycharly.gumroad.com/l/cyrada) ist ein optionales, getrenntes Produkt. Die Rechenwerte sind Schätzungen, keine nachgewiesenen Einsparungen.
+
 ![ATHENA free two-option comparison demo, genuine browser screenshot](docs/athena-demo-preview.png)
 
 **Decision matrix guide (English):** [Read the worked example and compare free versus paid](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/decision-matrix.html). Optional translations: [Deutsch](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/entscheidungshilfe-de.html) · [Türkçe](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/karar-matrisi-tr.html).
