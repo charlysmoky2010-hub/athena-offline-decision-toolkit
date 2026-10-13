@@ -2,6 +2,8 @@
 
 **CERBERRUS Produktfinder:** [Digitale Werkzeuge, Geschäftsprozesse, kreative Angebote und kostenlose Partner-Tools nach Bedarf entdecken](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/produkte-nach-bedarf.html?utm_source=github&utm_medium=repository&utm_campaign=product_routes_v1). Geprüfte öffentliche Angebotsseiten werden von Services mit ungeprüfter Lieferbereitschaft getrennt. Kein automatisch aktivierter Kauf.
 
+**Kostenlos: KI-Agenten für kleine Unternehmen realistisch prüfen:** [Sechs konkrete Prüffragen, Beispielablauf und authentische Workbook-Vorschau](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/ki-agenten-kmu-workflow-checkliste-2026.html). Das verfügbare 29-€-Gumroad-Produkt ist optional; weder Kundenergebnis noch Lieferung durch Testkauf behauptet.
+
 **CERBERRUS für kleine Unternehmen:** [Kostenlosen Angebotsprozess-Rechner verwenden](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/angebotsprozess-zeitkosten-rechner.html). Vier Werte eingeben, Ergebnis teilen oder freiwillig eine unverbindliche Anfrage an die separate CERBERRUS AI-Operations-Adresse vorbereiten. Das [deutsche Operational X-Ray Workbook (€29)](https://smokycharly.gumroad.com/l/cyrada) ist ein optionales, getrenntes Produkt. Die Rechenwerte sind Schätzungen, keine nachgewiesenen Einsparungen.
 
 ![ATHENA free two-option comparison demo, genuine browser screenshot](docs/athena-demo-preview.png)
