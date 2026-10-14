@@ -1,5 +1,7 @@
 # ATHENA ΦOS | Offline Decision Toolkit
 
+**Customer Inquiry Recovery Audit — €59 pilot:** [Take the free five-point inquiry self-check and request a no-obligation audit](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/customer-inquiry-audit-59.html?utm_source=github&utm_medium=repository&utm_campaign=service_intake_en_2026). Intended for small service businesses: one current inquiry process, a friction-point map, two reusable reply templates and a seven-day review plan. No payment or contract at inquiry stage, no mailbox access, and no promised ROI. Written scope and delivery readiness are reviewed before any paid order.
+
 **CERBERRUS Produktfinder:** [Digitale Werkzeuge, Geschäftsprozesse, kreative Angebote und kostenlose Partner-Tools nach Bedarf entdecken](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/produkte-nach-bedarf.html?utm_source=github&utm_medium=repository&utm_campaign=product_routes_v1). Geprüfte öffentliche Angebotsseiten werden von Services mit ungeprüfter Lieferbereitschaft getrennt. Kein automatisch aktivierter Kauf.
 
 **Kostenlos: KI-Agenten für kleine Unternehmen realistisch prüfen:** [Sechs konkrete Prüffragen, Beispielablauf und authentische Workbook-Vorschau](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/ki-agenten-kmu-workflow-checkliste-2026.html). Das verfügbare 29-€-Gumroad-Produkt ist optional; weder Kundenergebnis noch Lieferung durch Testkauf behauptet.
