@@ -21,7 +21,9 @@ for (const [filename, language, price] of cases) {
     assert.ok(html.includes('page=withdrawal'));
     assert.ok(html.includes('athena-offline-decision-toolkit/'), 'Preserve free demo');
     assert.ok(html.includes('hypnotic-aura-878t7t3.shipstatic.com/'), 'Product details');
-    assert.equal((html.match(/<script(?:\s|>)/gi) || []).length, 0, 'No new trackers');
+    assert.equal((html.match(/<script(?:\s|>)/gi) || []).length, 1, 'Keep only existing JSON-LD');
+    assert.ok(html.includes('<script type="application/ld+json">'));
+    assert.doesNotMatch(html, /<script\b[^>]*\bsrc\s*=/i, 'No remotely loaded scripts');
     assert.doesNotMatch(html, /limited spots|guaranteed income|sale ends tonight|only today|nur heute|nur noch 3/i);
   });
 }
