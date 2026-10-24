@@ -1,5 +1,16 @@
 # ATHENA ΦOS | Offline Decision Toolkit
 
+## Start here: one free demo, one optional paid product
+
+**Need to compare three or four courses, software tools or service offers?** First [try the free two-option decision demo](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/). If that is enough, there is nothing to buy. The optional **ATHENA Offline Toolkit is €9.90 once**, adding a four-option workbook, local CSV/JSON export, and a reusable research playbook. The workbook interface is English; instructions include English, German and Turkish.
+
+- [Deutsch: Vier Angebote vergleichen — Umfang, Preis, kostenlose Demo und Kaufbedingungen](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/entscheidungshilfe-de.html)
+- [English: Compare four options — contents, price, free demo and buying terms](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/decision-matrix.html)
+
+The Stripe checkout is **live**, but a completed buyer-specific delivery test is not proven. The current post-payment download URL is shareable and is not a per-buyer access entitlement. We do not invent customers, urgency, guaranteed outcomes or revenue. Consumer terms and withdrawal information are linked on the product pages.
+
+---
+
 **Free CSV quality check (separate CERBERRUS tool):** [Try MicroVault in your browser — duplicate rows, empty cells and basic CSV checks](https://microvault.floot.app/?utm_source=github&utm_medium=athena_readme&utm_campaign=free_csv_crosslink_20261017). CSV files are processed locally in the browser, with a 2 MB limit stated by the application. The free scan needs no account. Optional €5 and €29 reports are separate one-time purchases via Stripe; they are **not part of ATHENA** and do not guarantee data correctness or financial results. You can test the free sample without uploading a file.
 
 **Customer Inquiry Recovery Audit — €59 pilot:** [Take the free five-point inquiry self-check and request a no-obligation audit](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/customer-inquiry-audit-59.html?utm_source=github&utm_medium=repository&utm_campaign=service_intake_en_2026). Intended for small service businesses: one current inquiry process, a friction-point map, two reusable reply templates and a seven-day review plan. No payment or contract at inquiry stage, no mailbox access, and no promised ROI. Written scope and delivery readiness are reviewed before any paid order.
