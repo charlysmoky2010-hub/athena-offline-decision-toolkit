@@ -1,5 +1,7 @@
 # ATHENA ΦOS | Offline Decision Toolkit
 
+**CERBERRUS GLOBAL DIRECTORY (English / Deutsch):** [Browse existing digital tools, independent review services and their real readiness status](https://charlysmoky2010-hub.github.io/commerce/). Free demos are distinguished from paid delivery still under verification.
+
 ## Start here: one free demo, one optional paid product
 
 **Need to compare three or four courses, software tools or service offers?** First [try the free two-option decision demo](https://charlysmoky2010-hub.github.io/athena-offline-decision-toolkit/). If that is enough, there is nothing to buy. The optional **ATHENA Offline Toolkit is €9.90 once**, adding a four-option workbook, local CSV/JSON export, and a reusable research playbook. The workbook interface is English; instructions include English, German and Turkish.
